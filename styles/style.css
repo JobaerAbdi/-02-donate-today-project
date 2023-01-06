@@ -1,0 +1,214 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.btn-primary:hover{
+    background-color: rgb(253, 3, 3);
+}
+.btn-primary{
+    background-color: rgb(208, 95, 57);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 20px;
+
+}
+header{
+    /* background-image: url('../images/donation6.jpg'); */
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)) , url('../images/donation6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    text-align: center;
+    color: white;
+}
+.banner-area{
+    padding: 200px 0;
+}
+.banner-title{
+    font-size: 60PX;
+    font-weight: bolder;
+}
+.banner-discription{
+    font-size: 20px;
+    margin: 25px 0;
+}
+.donate-area{
+    margin-top: 80px;
+    text-align: center;
+}
+.donate-title{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.donate-discription{
+    margin: 25px 0;
+}
+.donate-area ul{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+.donate-area ul li{
+    list-style: none;
+    padding: 30px 15px;
+    background-color: lightgray;
+    font-size: 28px;
+    font-weight: 700;
+    color: gray;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    text-align: center;
+}
+.donate-area ul li:hover{
+    border: 2px solid rgb(185, 63, 63) ;
+    background-color: rgb(195, 152, 152);
+    border-radius: 5px;
+    color: rgb(183, 52, 52);
+}
+.donate-extra {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 400px;
+    text-align: center;
+}
+.hr-line{
+    width: 710px;
+    margin: 0 auto;
+}
+.btn-area{
+    margin-top: 25px;
+}
+.donate-type-container{
+    display: flex;
+    gap: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+.type-item-food{
+    background-color: rgba(188, 228, 253, 0.519);
+    padding: 35px 25px;
+    border-radius: 5px;
+}
+.type-item-shelter{
+    background-color: rgba(233, 180, 174, 0.373);
+    padding: 35px 25px;
+    border-radius: 5px;
+}
+.type-item-education{
+    background-color: rgba(235, 225, 165, 0.712);
+    padding: 35px 25px;
+    border-radius: 5px;
+}
+.donate-type-container img{
+    padding: 20px 15px;
+}
+.type-description{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.donate-depend-section{
+    margin-top: 100px;
+}
+.donate-depend-container{
+    display: flex;
+    gap: 35px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.depend-content1{
+    margin-top: 50px;
+    padding-right: 120px;
+}
+.depend-content2{
+    margin-top: 50px;
+    padding-left: 120px;
+}
+.depend-image img{
+    width: 320px;
+    height: 350px;
+}
+.depend-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.depend-desription-1 , .depend-description-2{
+    font-size: 15px;
+    font-weight: 600;
+    margin:25px 0;
+    color: rgb(141, 130, 130);
+}
+.update-section{
+    width: 900px;
+    margin: 0 auto;
+}
+.update-container{
+    margin-top: 90px;
+    text-align: center;
+}
+.update-description{
+    margin-top: 20px;
+}
+.input-field{
+    margin-top: 80px;
+    height: 200px;
+    background-color: rgba(224, 240, 9, 0.642);
+    margin: 0 100px;
+}
+.input-field form{
+    margin-top: 100px;
+}
+input{
+    margin-top: 80px;
+}
+input[type="text"]{
+    width: 230px;
+    height: 40px;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    font-size: 15px;
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+input::placeholder{
+    padding-left: 15px;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 130px;
+    border: none;
+    color: #ffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -3px;
+    margin-top: -4px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(208, 95, 57);
+}
+footer{
+    margin-top: 100px;
+    height: 200px;
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+}
+footer h3{
+    color: rgb(185, 63, 63);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-top: 55px;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
